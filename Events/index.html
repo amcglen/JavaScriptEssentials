@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="./styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <section class="main-container">
+    <header>
+      <h1>Learn HTML, CSS & JS</h1>
+    </header>
+
+    <div id="introduction-terms">
+    <section class="introduction-info">
+      <h3>What is HTML?</h3>
+      <p>HTML stands for Hyper Text Mark Up Language. <span id="info-HTML" onmouseover="showInfo()">⌽</span> </p>
+      <p>The main purpose of HTML is provide structure to a webpage by addind 
+        different elements e.g. headings, text content, images/graphics, tables and videos.</p>
+      </p>
+    </section>
+
+    <section class="introduction-info">
+      <h3>What is CSS?</h3>
+      <p>CSS stands for Cascading Style Sheets. </p>
+      <p>The main purpose of HTML is provide structure to a webpage by addind 
+        different elements e.g. headings, text content, images/graphics, tables and videos.</p>
+      </p>
+    </section>
+  </div>
+
+  <section id="contactForm">
+    <form>
+      <div class='inputRow'>
+        <label for="fName">First Name</label>
+        <input class="inputTextBox" type="text" id="fName" placeholder="Enter your first name here." min="3" />
+      <p class="errMsg" id="fNameErr"></p>
+      </div>
+      <div class='inputRow'>
+        <label for="lName">Last Name</label>
+        <input class="inputTextBox" type="text" id="lName" placeholder="Enter your last name here." min="4" />
+        <p class="errMsg" id="lNameErr"></p>
+      </div>
+    </form>
+  </section>
+
+
+  </section>
+  
+  <script src="./index.js"></script>
+</body>
+</html>
